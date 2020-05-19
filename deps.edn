@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps  {borkdude/babashka.curl {:git/url "https://github.com/borkdude/babashka.curl"
+                                 :sha     "82a6571d51abee402e0b40be984420000fe1c08b"}
+         borkdude/clj-http-lite {:git/url "https://github.com/borkdude/clj-http-lite"
+                                 :sha     "a75db6db60eadcf609104a979b29499f54b3665b"}
+         cheshire               {:mvn/version "5.10.0"}}
+
+
+ }
+
